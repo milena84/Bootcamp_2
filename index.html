@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Form Personal Data</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<nav>
+    <div class="container">
+        <div class="form-personalData">
+            <div>
+                <h2>Personal Data</h2>
+                <input id="name" class="form-control" placeholder="Enter your Name">
+            </div>
+            <div>
+                <input id= "lastName" class="form-control" placeholder="Enter your Lastname">
+            </div>
+            <div>
+                <br>
+                <button id="bSave" class="myButton">Save</button>
+                <button id="bLocal" class="myButton">See Local Storage</button>
+                <br>
+                <button id="bClear" class="myButton">Limpiar LS</button>
+            </div>
+            <div id="message" style="font-size: 16pt; margin: 16px 1px;"></div>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span id = "title"></span>
+                <ul id="persons">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</nav>
+</html>
+
